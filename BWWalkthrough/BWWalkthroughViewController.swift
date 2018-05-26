@@ -134,6 +134,9 @@ import UIKit
         pageControl?.currentPage = 0
     }
     
+    override open var preferredStatusBarStyle: UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
+    }
     
     // MARK: - Internal methods -
     
